@@ -1,0 +1,92 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-image: url("image/bgrand.png");
+  margin: 0;
+}
+
+h1{
+  font-size: 70px;
+  color: lightgray;
+  margin-bottom:0px;
+}
+
+/*h2 element, Job Title*/
+.profesion {
+  padding-bottom: 30px;
+  line-height: 0px;
+  color: lightgray;
+  margin-top: 10px;
+}
+
+h1, h2, h3, h5, h6 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*Horizotal rules element*/
+.hr-class{
+  border: 1px solid gray;
+  margin-top: 50px; margin-bottom: 50px
+}
+
+.main {
+  text-align: center;
+}
+
+.main-class{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+/*Proto profil*/
+.profil {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: 200px; 
+  box-shadow: 5px 5px 10px #625551;
+}
+
+/*Header Background*/
+.headerbackgr{
+  padding-top: 2px;
+  margin: 0px;   
+  background-color:#463f3b;
+  color: white;
+  text-align: center;
+}
+
+/*anchors tags*/
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color:darkblue;
+}
+a:hover {
+  color: #93ada4;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a {
+  color: darkgreen;
+}
+
+
+footer{
+  padding: 20px;
+  margin: 0px;   
+  background-color:#463f3b;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  color: lightgray;
+}
